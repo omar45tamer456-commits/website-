@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Abdelrahman AbdelFattah El‑Sisi | Cybersecurity Portfolio</title>
+  <meta name="description" content="Premium cybersecurity student portfolio showcasing skills, projects, and certifications." />
+  <link rel="icon" href="favicon.ico" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loading" class="loading-overlay">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">Mohamed A.E. El‑Sisi</a>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Mohamed Abdelrahman AbdelFattah El‑Sisi</h1>
+      <p class="hero-subtitle">Cybersecurity Student | Web Penetration Tester</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="/files/cv.pdf" class="btn btn-secondary" download>Download CV</a>
+      </div>
+    </div>
+    <canvas id="hero-bg" class="hero-bg-canvas"></canvas>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="section about-section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I am a passionate cybersecurity student specializing in web penetration testing.
+      I thrive on uncovering vulnerabilities and strengthening defenses in modern web applications.
+      My analytical mindset and hands‑on experience with industry‑standard tools enable me to deliver thorough security assessments.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section education-section">
+    <h2 class="section-title">Education</h2>
+    <div class="education-card glass-card">
+      <h3>Benha University</h3>
+      <p>Faculty of Computers and Artificial Intelligence – Cybersecurity Department</p>
+      <p>Third Year</p>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section id="skills" class="section skills-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card glass-card" data-skill="Burp Suite">
+        <div class="skill-icon">🛡️</div>
+        <p>Burp Suite</p>
+      </div>
+      <div class="skill-card glass-card" data-skill="Nmap">
+        <div class="skill-icon">📡</div>
+        <p>Nmap</p>
+      </div>
+      <div class="skill-card glass-card" data-skill="SQLMap">
+        <div class="skill-icon">🗄️</div>
+        <p>SQLMap</p>
+      </div>
+      <div class="skill-card glass-card" data-skill="ffuf">
+        <div class="skill-icon">🔍</div>
+        <p>ffuf</p>
+      </div>
+      <div class="skill-card glass-card" data-skill="Kali Linux">
+        <div class="skill-icon">🐧</div>
+        <p>Kali Linux</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card glass-card">
+        <h3>PortSwigger Labs Practice</h3>
+        <p>Completed multiple labs focusing on XSS, CSRF, and authentication bypasses.</p>
+      </div>
+      <div class="project-card glass-card">
+        <h3>Clickjacking Vulnerability Discovery</h3>
+        <p>Identified and exploited clickjacking issues on a demo web app, documenting mitigation steps.</p>
+      </div>
+      <div class="project-card glass-card">
+        <h3>Security Testing Practice</h3>
+        <p>Performed comprehensive penetration testing on a custom vulnerable VM using Burp Suite, Nmap, and custom scripts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section experience-section">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-card glass-card">
+      <h3>HackerOne Bug Bounty Participation</h3>
+      <p>Active participant in HackerOne programs, submitting high‑quality vulnerability reports and earning rewards.</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section certifications-section">
+    <h2 class="section-title">Certifications</h2>
+    <ul class="cert-list">
+      <li>Web Penetration Testing</li>
+      <li>Red Teaming</li>
+      <li>Network Penetration Testing</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact</h2>
+    <p><strong>Phone:</strong> 01151847497</p>
+    <p><strong>Email:</strong> <a href="mailto:sisimezo24@gmail.com">sisimezo24@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Mohamed Abdelrahman AbdelFattah El‑Sisi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
